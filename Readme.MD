@@ -38,6 +38,8 @@
   - [Folder Structure :open\_file\_folder:](#folder-structure-open_file_folder)
   - [License :page\_with\_curl:](#license-page_with_curl)
 
+
+
 ## Overview
 
 **Objective:**
@@ -123,7 +125,7 @@ In developing a movie recommender system, we explored various approaches includi
 
 ## Acknowledgements :link:
 
-I wish to acknowledge https://github.com/krishnaik06 for the guidance and support in this project.
+
 
 ## Technologies Used :gear:
 
