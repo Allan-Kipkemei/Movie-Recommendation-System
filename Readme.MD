@@ -1,26 +1,23 @@
 # Data Science: Phase 4 Project
 
-> **Note:** This project is part of the [Flatiron School](https://flatironschool.com/) Data Science Bootcamp curriculum (offered by [Moringa School](https://moringaschool.com/courses/data-science-course-part-time/?utm_source=google&utm_medium=cpc&utm_campaign=DSPT_2024&utm_id=Mar_18th_2024&https://moringaschool.com/courses/data-science-course-part-time/?utm_source=google&utm_medium=cpc&utm_campaign=DSPT_2024&utm_id=Mar_18th_2024&gclid=CjwKCAiAg9urBhB_EiwAgw88meuVKuCgN0GbBrUrQdZcJasaz7zb7v1ilwIp0KgQOxs2CKKduCxZNxoCQCoQAvD_BwE)).
 
-<a href="">View Demo</a>
 
 # Movie Recommender System
 
-![image](./images/)
+![image](./images/Screenshot%202024-07-29%20154035.png/)
 
 ---
 
 - **Group 17**
 - Student names:
-  - 
-  - 
-  - 
+  - Allan Kiplagat
+  - Esther Njagi
+  - Benedict Kuloba
 - Student pace: **Full time**
-- Scheduled project review date/time: 
+- Scheduled project review date/time: [To be added]
 - Instructor name: **Asha Deen**
 
 ---
-
 
 ## Table of Contents:
 
@@ -28,16 +25,13 @@
 - [Movie Recommender System](#movie-recommender-system)
   - [Table of Contents:](#table-of-contents)
   - [Overview](#overview)
-  - [Business and Data Understanding:](#business-and-data-understanding)
-    - [Objective:](#objective)
-  - [Modelling:](#modelling)
-  - [Conclusion and Recommendations:](#conclusion-and-recommendations)
+  - [Business and Data Understanding](#business-and-data-understanding)
+    - [Objective](#objective)
+  - [Modelling](#modelling)
+  - [Conclusion and Recommendations](#conclusion-and-recommendations)
   - [Authors :people\_holding\_hands:](#authors-people_holding_hands)
   - [Acknowledgements :link:](#acknowledgements-link)
   - [Technologies Used :gear:](#technologies-used-gear)
- 
-
-
 
 ## Overview
 
@@ -47,28 +41,23 @@ The goal of this project is to design and implement a movie recommender system t
 **Key Components:**
 
 1. **Data Collection:**
-
    - Utilized a movie dataset containing information about movies, genres, user ratings, and tags.
    - Explored and cleaned the dataset to prepare it for modeling.
 
 2. **Exploratory Data Analysis (EDA):**
-
    - Analyzed the dataset to understand its structure, features, and distributions.
    - Visualized key patterns, such as user preferences and movie popularity, to gain insights.
 
 3. **Content-Based Filtering:**
-
    - Implemented a content-based recommender system using movie genres.
-   - Explored the use of TF-IDF vectors to represent movie content and calculate similarities.
+   - Used TF-IDF vectors to represent movie content and calculate similarities.
 
 4. **Neighborhood-Based Collaborative Filtering (KNN):**
-
    - Implemented a neighborhood-based collaborative filtering model using SciKit Learn's KNN.
    - Explored both user-based and item-based collaborative filtering approaches.
    - Evaluated the model's performance using metrics such as RMSE and MAE.
 
 5. **Model-Based Collaborative Filtering (SVD):**
-
    - Implemented a model-based collaborative filtering approach using the Surprise library and Singular Value Decomposition (SVD).
    - Evaluated the model's performance and explored hyperparameter tuning.
 
@@ -76,29 +65,28 @@ The goal of this project is to design and implement a movie recommender system t
    - Recommended a hybrid model that combines the strengths of content-based and collaborative filtering approaches.
    - Highlighted the potential benefits of leveraging both user-item interactions and content features.
 
-## Business and Data Understanding:
+## Business and Data Understanding
 
-### Objective:
+### Objective
 
 The primary objective of the recommender system project is to enhance user satisfaction and engagement on the MovieLens platform by delivering personalized and relevant movie recommendations. The recommender system aims to provide users with tailored suggestions based on their historical movie ratings and tagging activities, ultimately improving their overall experience.
 
-## Modelling:
+## Modelling
 
 For this project, we explored the following models:
 
-1. Unpersonalized model
-1. Content-based model
-1. Collaborative filtering model
-   1. Memory/Neighbourhood based (KNN)
-   1. Model based (Matrix factorization)
-      1. Singular Value Decomposition
+1. **Unpersonalized Model**
+2. **Content-Based Model**
+3. **Collaborative Filtering Model**
+   - **Neighborhood-Based (KNN)**
+   - **Model-Based (Matrix Factorization)**
+     - Singular Value Decomposition (SVD)
 
-For the final model, we used the Neighbourhood based model (KNN) as it had the lowest RMSE and MAE scores.
-We also explored the use of a hybrid model that combines the strengths of content-based and collaborative filtering approaches.
+For the final model, we used the Neighborhood-Based model (KNN) as it had the lowest RMSE and MAE scores. We also explored the use of a hybrid model that combines the strengths of content-based and collaborative filtering approaches.
 
 > **Note:** The code for the models can be found in the [notebooks](notebooks) folder.
 
-## Conclusion and Recommendations:
+## Conclusion and Recommendations
 
 In developing a movie recommender system, we explored various approaches including content-based filtering, neighborhood-based collaborative filtering (KNN), and model-based collaborative filtering (SVD). Each approach had its strengths and limitations.
 
@@ -118,13 +106,13 @@ In developing a movie recommender system, we explored various approaches includi
 
 ## Authors :people_holding_hands:
 
-- [Allan Kiplagat](https://github.com/FREDRICKKYEKI)
-- [Esther Njagi](https://github.com/kiriiri)
-- [Benedict Kuloba](https://github.com/willieki)
+- [Allan Kiplagat](https://github.com/Allan-Kipkemei)
+- [Esther Njagi](https://github.com/emukami2)
+- [Benedict Kuloba](https://github.com/myles-G)
 
 ## Acknowledgements :link:
 
-
+[To be added]
 
 ## Technologies Used :gear:
 
@@ -139,5 +127,3 @@ In developing a movie recommender system, we explored various approaches includi
 - Pickle
 - onrender.com (for deployment)
 - Saturn Cloud
-- Surprise
-
