@@ -57,7 +57,7 @@
   - [Conclusion and Recommendations](#conclusion-and-recommendations)
   - [Authors :people\_holding\_hands:](#authors-people_holding_hands)
   - [Technologies Used :gear:](#technologies-used-gear)
-  - [Streamlite to deploy our model](#streamlite-to-deploy-our-model)
+  - [Streamlit to deploy our model](#streamlit-to-deploy-our-model)
 
 ## Overview
 
@@ -149,7 +149,7 @@ In developing a movie recommender system, we explored various approaches includi
 - Joblib
 
 
-## Streamlite to deploy our model
+## Streamlit to deploy our model
 
 ![image](./images/Screenshot%202024-07-29%20154035.png)
 
