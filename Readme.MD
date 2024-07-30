@@ -17,38 +17,38 @@
 - Scheduled project review date/time: [To be added]
 - Instructor name: **Asha Deen**
 
----
 ## Folder structure
-
-
-### Explanation:
-
-- **`.ipynb_checkpoints/`**: Checkpoints for Jupyter notebooks.
-- **`.pytest_cache/`**: Cache directory for `pytest`.
-- **`.venv/`**: Virtual environment for the project.
-- **`data/ml-latest-small/`**: Contains the dataset files.
-  - `links.csv`, `movies.csv`, `ratings.csv`, `README.txt`, `tags.csv`: Various data files used in the project.
-- **`images/`**: Directory for image files used in the project.
-  - `images.png`, `Screenshot 2024-07-29 154035.png`, `wordcloud.png`: Images for visualization and documentation.
-- **`static/`**: Directory for static files (if any).
-- **`.gitignore`**: Specifies files and directories to be ignored by Git.
-- **`app.py`**: Main script to run the Streamlit application.
-- **`Group PPT.Rec System.pdf`**: PDF document related to the project.
-- **`knn_pv`**: KNN model data.
-- **`knn_pv.joblib`**: Serialized KNN model.
-- **`mainrecommender.ipynb`**: Jupyter notebook for the main recommender system.
-- **`Readme.MD`**: This README file.
-- **`recom_model.joblib`**: Serialized recommendation model.
-- **`eda.ipynb`**: Jupyter notebook for EDA analysis and visualisations.
-
-
+      Phase 04 Project/
+      ├── .ipynb_checkpoints/
+      ├── .pytest_cache/
+      ├── .venv/
+      ├── data/
+      │ └── ml-latest-small/
+      │ ├── links.csv
+      │ ├── movies.csv
+      │ ├── ratings.csv
+      │ ├── README.txt
+      │ └── tags.csv
+      ├── images/
+      │ ├── images.png
+      │ ├── Screenshot 2024-07-29 154035.png
+      │ └── wordcloud.png
+      ├── static/
+      ├── .gitignore
+      ├── app.py
+      ├── Group PPT.Rec System.pdf
+      ├── knn_pv
+      ├── knn_pv.joblib
+      ├── mainrecommender.ipynb
+      ├── Readme.MD
+      ├── recom_model.joblib
+      └── Recommender.ipynb
 
 ## Table of Contents:
 
 - [Data Science: Phase 4 Project](#data-science-phase-4-project)
 - [Filmfusion Movie Recommender System](#filmfusion-movie-recommender-system)
   - [Folder structure](#folder-structure)
-    - [Explanation:](#explanation)
   - [Table of Contents:](#table-of-contents)
   - [Overview](#overview)
   - [Business and Data Understanding](#business-and-data-understanding)
