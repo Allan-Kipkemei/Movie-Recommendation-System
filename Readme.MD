@@ -132,4 +132,4 @@ In developing a movie recommender system, we explored various approaches includi
  - Key Features of Our Streamlit App:
 Interactive User Interface: Users can easily input data through the web interface and receive instant predictions.
 Real-Time Updates: The model processes user inputs and displays results immediately, providing a seamless user experience.
-Easy to Deploy and Share: With minimal setup, the app can be deployed and shared with stakeholders or end-users, making it accessible from any web browser.
+Easy to Deploy and Share
