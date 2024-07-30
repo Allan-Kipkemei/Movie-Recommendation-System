@@ -4,7 +4,7 @@
 
 # Filmfusion Movie Recommender System 
 
-![image](./images/Screenshot%202024-07-29%20154035.png/)
+![image](./images/images.png)
 
 ---
 
