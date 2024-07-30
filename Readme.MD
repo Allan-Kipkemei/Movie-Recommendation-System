@@ -17,12 +17,38 @@
 - Scheduled project review date/time: [To be added]
 - Instructor name: **Asha Deen**
 
----
+## Folder structure
+      Phase 04 Project/
+      ├── .ipynb_checkpoints/
+      ├── .pytest_cache/
+      ├── .venv/
+      ├── data/
+      │ └── ml-latest-small/
+      │ ├── links.csv
+      │ ├── movies.csv
+      │ ├── ratings.csv
+      │ ├── README.txt
+      │ └── tags.csv
+      ├── images/
+      │ ├── images.png
+      │ ├── Screenshot 2024-07-29 154035.png
+      │ └── wordcloud.png
+      ├── static/
+      ├── .gitignore
+      ├── app.py
+      ├── Group PPT.Rec System.pdf
+      ├── knn_pv
+      ├── knn_pv.joblib
+      ├── mainrecommender.ipynb
+      ├── Readme.MD
+      ├── recom_model.joblib
+      └── Recommender.ipynb
 
 ## Table of Contents:
 
 - [Data Science: Phase 4 Project](#data-science-phase-4-project)
 - [Filmfusion Movie Recommender System](#filmfusion-movie-recommender-system)
+  - [Folder structure](#folder-structure)
   - [Table of Contents:](#table-of-contents)
   - [Overview](#overview)
   - [Business and Data Understanding](#business-and-data-understanding)
@@ -30,8 +56,8 @@
   - [Modelling](#modelling)
   - [Conclusion and Recommendations](#conclusion-and-recommendations)
   - [Authors :people\_holding\_hands:](#authors-people_holding_hands)
-  - [Acknowledgements :link:](#acknowledgements-link)
   - [Technologies Used :gear:](#technologies-used-gear)
+  - [Streamlite to deploy our model](#streamlite-to-deploy-our-model)
 
 ## Overview
 
@@ -110,10 +136,6 @@ In developing a movie recommender system, we explored various approaches includi
 - [Esther Njagi](https://github.com/emukami2)
 - [Benedict Kuloba](https://github.com/myles-G)
 
-## Acknowledgements :link:
-
-[To be added]
-
 ## Technologies Used :gear:
 
 - Python 3.8.5
@@ -124,6 +146,16 @@ In developing a movie recommender system, we explored various approaches includi
 - Matplotlib
 - Seaborn
 - Flask
-- Pickle
-- onrender.com (for deployment)
-- Saturn Cloud
+- Joblib
+
+
+## Streamlite to deploy our model
+
+![image](./images/Screenshot%202024-07-29%20154035.png)
+
+- Streamlit is an open-source app framework that allows you to create and share custom web apps for machine learning and data science projects. We have utilized Streamlit to deploy our machine learning model, enabling an interactive and user-friendly interface for users to input data and receive predictions in real-time. The simplicity and efficiency of Streamlit facilitate rapid deployment and ease of use, making it an excellent choice for showcasing our model's capabilities.
+
+ - Key Features of Our Streamlit App:
+Interactive User Interface: Users can easily input data through the web interface and receive instant predictions.
+Real-Time Updates: The model processes user inputs and displays results immediately, providing a seamless user experience.
+Easy to Deploy and Share
