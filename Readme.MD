@@ -2,9 +2,9 @@
 
 
 
-# Movie Recommender System
+# Filmfusion Movie Recommender System 
 
-![image](./images/Screenshot%202024-07-29%20154035.png/)
+![image](./images/images.png)
 
 ---
 
@@ -22,7 +22,7 @@
 ## Table of Contents:
 
 - [Data Science: Phase 4 Project](#data-science-phase-4-project)
-- [Movie Recommender System](#movie-recommender-system)
+- [Filmfusion Movie Recommender System](#filmfusion-movie-recommender-system)
   - [Table of Contents:](#table-of-contents)
   - [Overview](#overview)
   - [Business and Data Understanding](#business-and-data-understanding)
