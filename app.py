@@ -2,8 +2,9 @@ import streamlit as st
 import pickle
 import pandas as pd
 
+
 # Load the model
-with open('recom_model.pkl', 'rb') as file:
+with open('knn_pv.joblib', 'rb') as file:
     model = pickle.load(file)
 
 # Function to get recommendations
@@ -25,3 +26,6 @@ if movie_title:
     st.write('Recommended Movies:')
     for rec in recommendations:
         st.write(rec)
+
+
+
