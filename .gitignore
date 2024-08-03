@@ -1,1 +1,47 @@
-/data
+# Ignore virtual environment
+.venv/
+venv/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore joblib files (these are usually large and can be regenerated)
+*.joblib
+
+# Ignore data files (if these are large or can be regenerated)
+data/ml-latest-small/
+
+# Ignore static and images folders (if content can be regenerated or is too large)
+images/
+static/
+
+# Ignore environment variables or sensitive information
+.env
+*.env
+
+# Ignore specific temporary files
+*.tmp
+*.temp
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled Python files
+*.so
+
+# Ignore other temporary or build files
+*.bak
+*.swp
+*.swo
+*.swn
+*.swn
